@@ -31,7 +31,7 @@ public class Home extends HttpServlet {
     	} else {
     	    System.out.println("Kết nối thất bại!");
     	}
-    	request.getRequestDispatcher("Home.jsp").forward(request, response);
+    	request.getRequestDispatcher("/View/Home.jsp").forward(request, response);
         
     }
 
